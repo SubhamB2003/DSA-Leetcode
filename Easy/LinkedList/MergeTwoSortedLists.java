@@ -24,8 +24,8 @@ class Solution {
             return list2;
         if (list2 == null)
             return list1;
-        if (list1 == null && list2 == null)
-            return null;
+        // if (list1 == null && list2 == null)
+        // return null;
 
         ListNode ans = new ListNode(-1);
         ListNode l1 = list1, l2 = list2, curr = ans;
